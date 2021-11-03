@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'Inconsolata', monospace, Arial, Helvetica, sans-serif;
+	background-image: url(../img/satellite.jpg);
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 32px;
+	background-color: palegoldenrod;
+	display: flex;
+	flex-flow: row nowrap;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+
+h1 {
+	color: #dc143c;
+	font-size: 38px;
+}
+aside {
+	flex-basis: 33%; 
+}
+p, [for="abtype"] {
+	margin-bottom: 0;
+	margin-top: 32px;
+}
+fieldset, #abtype {
+	margin-bottom: 32px;
+}
+fieldset {
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+legend {
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-top: 1.5rem;
+	margin-bottom: 16px;
+	display: block;
+}
+label {
+	display: block;
+}
+input:not([type="radio"]):not([type="checkbox"]), 
+textarea {
+	display: block;
+	margin-bottom: 32px;
+	width: 20rem;
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	border-radius: 10px;
+	padding: 5px 16px;
+}
+textarea {
+	height: 10rem;
+	padding: 16px;
+}
+select {
+	font-size: 16px;
+	padding: 5px; 
+}
+button {
+	margin: 2rem 0;
+	background-color: #dc143c;
+	color: white;
+	border: none;
+	font-size: 16px;
+	padding: 8px 16px;
+	border-radius: 10px;
+}
+button:hover {
+	background-color: rgb(160, 28, 54);
+}
+
+.attribution {
+	background-color: rgb(248, 223, 110);
+    font-size: 0.8em; 
+    font-weight: bold;
+    margin: 0 auto;
+	padding: 16px;
+	text-align: center;
+	width: 80%;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
